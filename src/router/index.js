@@ -5,6 +5,11 @@ import Login from '@/components/login/login'
 import Home from '@/components/home/home'
 import Users from '@/components/users/users'
 import Right from '@/components/rights/right'
+import Role from '@/components/rights/role'
+import Goodslist from '@/components/goods/goodslist'
+import Goodsadd from '@/components/goods/goodsadd'
+import Goodscate from '@/components/goods/goodscate'
+import Cateparams from '@/components/goods/cateparams'
 
 Vue.use(Router)
 
@@ -23,7 +28,11 @@ export default new Router({
       children:[
         {path: '/users',name: 'Users',component: Users},
         {path: '/rights',name: 'Right',component: Right},
-        
+        {path: '/roles',name: 'Role',component: Role},
+        {path: '/goods',name: 'Goodslist',component: Goodslist},
+        {path: '/goodsadd',name: 'Goodsadd',component: Goodsadd},
+        {path: '/categories',name: 'Goodscate',component: Goodscate},
+        {path: '/params',name: 'Cateparams',component: Cateparams},
       ]
     }
   ]
