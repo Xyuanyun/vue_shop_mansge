@@ -11,7 +11,7 @@ import Goodsadd from '@/components/goods/goodsadd'
 import Goodscate from '@/components/goods/goodscate'
 import Cateparams from '@/components/goods/cateparams'
 import Order from '@/components/order/order'
-
+import Report from '@/components/reports/report'
 
 Vue.use(Router)
 
@@ -36,7 +36,7 @@ export default new Router({
         {path: '/categories',name: 'Goodscate',component: Goodscate},
         {path: '/params',name: 'Cateparams',component: Cateparams},
         {path: '/orders',name: 'Order',component: Order},
-
+        {path: '/reports',name: 'Report',component: Report},
       ]
     }
   ]
