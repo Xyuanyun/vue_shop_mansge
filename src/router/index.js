@@ -10,6 +10,8 @@ import Goodslist from '@/components/goods/goodslist'
 import Goodsadd from '@/components/goods/goodsadd'
 import Goodscate from '@/components/goods/goodscate'
 import Cateparams from '@/components/goods/cateparams'
+import Order from '@/components/order/order'
+
 
 Vue.use(Router)
 
@@ -33,6 +35,8 @@ export default new Router({
         {path: '/goodsadd',name: 'Goodsadd',component: Goodsadd},
         {path: '/categories',name: 'Goodscate',component: Goodscate},
         {path: '/params',name: 'Cateparams',component: Cateparams},
+        {path: '/orders',name: 'Order',component: Order},
+
       ]
     }
   ]
